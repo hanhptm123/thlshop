@@ -1,0 +1,256 @@
+﻿@model SHOPTHL.Data.Sanpham
+@{
+    ViewData["Title"] = "CtSp";
+    Layout = "~/Views/Shared/ChitietSp.cshtml";
+}
+<style>
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .button-container a {
+            margin: 0 5px; /* Adjust the margin as needed */
+        }
+</style>
+<!-- breadcrumb -->
+<div class="container">
+    <div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+        <a href="https://localhost:7064/" class="stext-109 cl8 hov-cl1 trans-04">
+            Home
+            <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+        </a>
+
+        <a href="/Sanphams/SpShop" class="stext-109 cl8 hov-cl1 trans-04">
+            @Model?.MaloaiNavigation?.Tenloai
+            <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+        </a>
+
+        <span class="stext-109 cl4">
+            @Model?.Tensp
+        </span>
+    </div>
+</div>
+
+<!-- Product Detail -->
+<section class="sec-product-detail bg0 p-t-65 p-b-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-7 p-b-30">
+                <div class="p-l-25 p-r-30 p-lr-0-lg">
+                    <div class="wrap-slick3 flex-sb flex-w">
+                        <div class="wrap-slick3-dots"></div>
+                        <div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+                        <div class="slick3 gallery-lb">
+                            <div class="item-slick3" data-thumb="/Image/@Model?.Hinhanh">
+                                <div class="wrap-pic-w pos-relative">
+                                    <img src="~/Image/@Model?.Hinhanh" alt="IMG-PRODUCT">
+
+                                    <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="~/Image/@Model?.Hinhanh">
+
+                                        <i class="fa fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item-slick3" data-thumb="/Image/@Model?.Hinhanh1">
+                                <div class="wrap-pic-w pos-relative">
+                                    <img src="~/Image/@Model?.Hinhanh1" alt="IMG-PRODUCT">
+
+                                    <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="~/Image/@Model?.Hinhanh1">
+                                        <i class="fa fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="item-slick3" data-thumb="/Image/@Model?.Hinhanh2">
+                                <div class="wrap-pic-w pos-relative">
+                                    <img src="~/Image/@Model?.Hinhanh2" alt="IMG-PRODUCT">
+
+                                    <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="~/Image/@Model?.Hinhanh2">
+                                        <i class="fa fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-slick3" data-thumb="/Image/@Model?.Hinhanh3">
+                                <div class="wrap-pic-w pos-relative">
+                                    <img src="~/Image/@Model?.Hinhanh3" alt="IMG-PRODUCT">
+
+                                    <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04" href="~/Image/@Model?.Hinhanh3">
+                                        <i class="fa fa-expand"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-5 p-b-30">
+                <div class="p-r-50 p-t-5 p-lr-0-lg">
+                    <h4 class="mtext-105 cl2 js-name-detail p-b-14">
+                        @Model?.Tensp
+                    </h4>
+                    <span class="mtext-106 cl2">
+                        @if (Model?.Dongia != ((Model?.Dongia * 100) / (100 - Model?.MagiamgiaNavigation.Phantramgiam)))
+                        {
+                            <text>Giá gốc: <span style="text-decoration: line-through">@string.Format("{0:N0}", ((Model?.Dongia * 100) / (100 - Model?.MagiamgiaNavigation.Phantramgiam))).000đ</span><br /></text>
+                        }
+                        Giá hiện tại: @string.Format("{0:N0}", Model?.Dongia).000đ
+                        @if (Model?.MagiamgiaNavigation != null && Model?.MagiamgiaNavigation.Phantramgiam != 0)
+                        {
+                            <span style="color: red; font-weight: bold;">  (-@Model?.MagiamgiaNavigation.Phantramgiam %)</span>
+                        }
+                    </span>
+
+
+                    <p class="stext-300 cl3 p-t-23">
+                        Thương hiệu: @Model?.MathNavigation?.Tenth
+                    </p>
+                    <p class="stext-300 cl3 p-t-23">
+                        Thuộc: @Model?.ManccNavigation?.Tenncc
+                    </p>
+                    <!--  -->
+                    <div class="p-t-33">
+                        <!-- Thêm code của component "Size" nếu cần -->
+                        @await Component.InvokeAsync("Size")
+
+                        <div class="flex-w flex-r-m p-b-10">
+                            <div class="size-204 flex-w flex-m respon6-next">
+                                @if (!User.Identity.IsAuthenticated)
+                                {
+                                    <a href="/Taikhoans/Login" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04" style="font-family: Arial;">
+                                        Đăng nhập để thêm vào giỏ hàng
+                                    </a>
+                                }
+                                else
+                                {
+                                    <div class="button-container">
+                                        <a href="/Cart/AddtoCart/?MASP=@Model.Masp" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-addcart-detail">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                        <a href="/Like/AddtoLike/?MASP=@Model.Masp" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 js-add-to-like" data-masp="@Model.Masp">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    </div>
+
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bor10 m-t-50 p-t-43 p-b-40">
+            <!-- Tab01 -->
+            <div class="tab01">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item p-b-10">
+                        <a class="nav-link active" data-toggle="tab" href="#description" role="tab" style="font-family: Arial;">Mô tả</a>
+                    </li>
+
+                    <li class="nav-item p-b-10">
+                        <a class="nav-link" data-toggle="tab" href="#information" role="tab" style="font-family: Arial;">Bảng size</a>
+                    </li>
+
+                    <li class="nav-item p-b-10">
+                        <a class="nav-link" data-toggle="tab" href="#reviews" role="tab" style="font-family: Arial;">Đánh giá</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content p-t-43">
+                    <!-- - -->
+                    <div class="tab-pane fade show active" id="description" role="tabpanel" style="font-family: Arial;">
+                        <div class="how-pos2 p-lr-15-md">
+                            <p class="stext-102 cl6" style="font-family: Arial;">
+                                @Model.Mota
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- - -->
+                    <div class="tab-pane fade" id="information" role="tabpanel">
+                        <div class="row">
+                            <div class="col-sm-5 col-md-4 col-lg-5 m-lr-auto">
+                                <img src="~/Image/@Model?.Bangsize" alt="IMG-SIZE" class="img-thumbnail">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- - -->
+                    <div class="tab-pane fade" id="reviews" role="tabpanel">
+                        <div class="row">
+                            <div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
+                                <div class="p-b-30 m-lr-15-sm" style="font-family: Arial;">
+                                    <!-- Review -->
+                                    @await Component.InvokeAsync("DanhGia", new { id = Model.Masp })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@await Component.InvokeAsync("RelatedProduct")
+<script>
+    function closeFullscreen() {
+        document.exitFullscreen(); // Thoát khỏi chế độ toàn màn hình
+    }
+
+    $('.img-thumbnail').css({
+        width: '200px',
+        height: 'auto'
+    });
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.js-add-to-like').click(function (event) {
+            event.preventDefault();  // Ngăn chặn hành vi mặc định của thẻ <a>
+            var masp = $(this).data('masp');
+            console.log('MASP:', masp); // Debugging
+
+            // Hiển thị SweetAlert trước khi gửi yêu cầu AJAX
+            Swal.fire({
+                title: 'Bạn có chắc chắn muốn thêm sản phẩm vào danh sách yêu thích?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'Đồng ý',
+                cancelButtonText: 'Hủy'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Chỉ gửi yêu cầu AJAX khi người dùng xác nhận
+                    $.ajax({
+                        url: '/Like/AddToLike',
+                        type: 'GET',
+                        data: { MASP: masp },
+                        success: function (response) {
+                            console.log('Response:', response); // Debugging
+                            Swal.fire({
+                                title: 'Đã thêm vào danh sách yêu thích!',
+                                icon: 'success',
+                                confirmButtonText: 'OK'
+                            });
+                        },
+                        error: function (error) {
+                            console.error('Error:', error); // Debugging
+                            Swal.fire({
+                                title: 'Có lỗi xảy ra, vui lòng thử lại sau.',
+                                icon: 'error',
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    });
+                }
+            });
+        });
+    });
+
+</script>

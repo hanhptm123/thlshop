@@ -1,0 +1,83 @@
+﻿@model SHOPTHL.Data.Danhgium
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/ChitietSp.cshtml";
+}
+
+<h1 class="text-center">Đánh giá sản phẩm</h1>
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<hr />
+<div class="row justify-content-center align-items-center">
+    <div class="col-md-4">
+  
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Masp" /> <!-- Ẩn trường mã sản phẩm -->
+            <input type="hidden" asp-for="Makh" /> <!-- Input hidden để giữ mã khách hàng -->
+            <input type="hidden" asp-for="Ngaydanhgia" value="@DateTime.Now" /> <!-- Ẩn trường ngày đánh giá -->
+            <!-- Thêm phần hiển thị hình ảnh và tên sản phẩm -->
+            <div class="form-group text-center">
+                @await Component.InvokeAsync("Spdanhgia", new { id = @ViewBag.Masp })
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Diemdanhgia" class="control-label">Điểm đánh giá</label>
+                <div>
+                    <span class="wrap-rating fs-18 cl11 pointer">
+                        <i id="star1" class="item-rating pointer zmdi zmdi-star-outline" onclick="setRating(1)"></i>
+                        <i id="star2" class="item-rating pointer zmdi zmdi-star-outline" onclick="setRating(2)"></i>
+                        <i id="star3" class="item-rating pointer zmdi zmdi-star-outline" onclick="setRating(3)"></i>
+                        <i id="star4" class="item-rating pointer zmdi zmdi-star-outline" onclick="setRating(4)"></i>
+                        <i id="star5" class="item-rating pointer zmdi zmdi-star-outline" onclick="setRating(5)"></i>
+                        <input class="dis-none" type="number" name="Diemdanhgia" id="Diemdanhgia" value="0">
+                    </span>
+                    <span id="ratingValue" class="ml-2">0</span>
+                </div>
+                <span asp-validation-for="Diemdanhgia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Loidanhgia" class="control-label">Lời đánh giá</label>
+                <input asp-for="Loidanhgia" class="form-control" />
+                <span asp-validation-for="Loidanhgia" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Hinhanh" class="control-label">Hình ảnh</label>
+                <br />
+                <input asp-for="Hinhanh" accept="image/*" type="file" class="form-control-file" />
+                <span asp-validation-for="Hinhanh" class="text-danger"></span>
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" value="Gửi" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function setRating(value) {
+            document.getElementById('Diemdanhgia').value = value;
+            // Toggle star icons based on selected rating
+            for (let i = 1; i <= 5; i++) {
+                const starIcon = document.getElementById('star' + i);
+                if (i <= value) {
+                    starIcon.classList.remove('zmdi-star-outline');
+                    starIcon.classList.add('zmdi-star');
+                } else {
+                    starIcon.classList.remove('zmdi-star');
+                    starIcon.classList.add('zmdi-star-outline');
+                }
+            }
+            // Update rating value
+            document.getElementById('ratingValue').textContent = value;
+        }
+    </script>
+}

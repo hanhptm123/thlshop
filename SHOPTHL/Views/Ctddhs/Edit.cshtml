@@ -1,0 +1,47 @@
+﻿@model SHOPTHL.Data.Ctddh
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Ctddh</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Mactddh" />
+            <div class="form-group">
+                <label asp-for="Maddh" class="control-label"></label>
+                <select asp-for="Maddh" class="form-control" asp-items="ViewBag.Maddh"></select>
+                <span asp-validation-for="Maddh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Masp" class="control-label"></label>
+                <select asp-for="Masp" class="form-control" asp-items="ViewBag.Masp"></select>
+                <span asp-validation-for="Masp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Soluong" class="control-label"></label>
+                <input asp-for="Soluong" class="form-control" />
+                <span asp-validation-for="Soluong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Thanhtien" class="control-label"></label>
+                <input asp-for="Thanhtien" class="form-control" />
+                <span asp-validation-for="Thanhtien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

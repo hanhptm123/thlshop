@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<SHOPTHL.Data.Size>
+<div class="flex-w flex-r-m p-b-10">
+	<div class="size-203 flex-c-m respon6">
+		Size
+	</div>
+
+	<div class="size-204 respon6-next">
+		<div class="rs1-select2 bor8 bg0">
+			<select class="js-select2" name="time">
+			
+				@foreach (var item in Model) {
+				<option>Size @item.Tensize</option>
+				}
+			</select>
+			<div class="dropDownSelect2"></div>
+		</div>
+	</div>
+</div>

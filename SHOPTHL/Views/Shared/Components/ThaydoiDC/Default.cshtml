@@ -1,0 +1,84 @@
+﻿@{
+}
+@model IEnumerable<SHOPTHL.Data.Diachi>
+@{
+    bool isFirstItem = true;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your Custom CSS -->
+    <style>
+        /* Custom CSS */
+        .mx-auto {
+            margin-right: auto !important;
+            margin-left: auto !important;
+        }
+
+        .address-option {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="mx-auto" style="max-width: 1000px;">
+
+        <button onclick="toggleAddressSelection()" class="btn btn-primary mt-3">Thay đổi địa chỉ</button>
+
+        <div id="addressOptions" style="display: none;">
+            <!-- Đây là nơi để hiển thị radio buttons cho các địa chỉ khi được nhấn -->
+            <div style=" min-height:20px;" class="hero-header"></div>
+            @foreach (var item in Model)
+            {
+                <div class="address-option">
+                    <label>
+                        <input type="radio" name="selectedAddress" value="@item.Madiachi" />
+                        <span>@item.Tennguoinhan - @item.Diachi1 - @item.Sdt</span>
+                    </label>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function toggleAddressSelection() {
+            var addressOptions = document.getElementById("addressOptions");
+            if (addressOptions.style.display === "none") {
+                addressOptions.style.display = "block";
+            } else {
+                addressOptions.style.display = "none";
+            }
+        }
+
+        $(document).ready(function () {
+            $('input[name="selectedAddress"]').change(function () {
+                var selectedAddressId = $('input[name="selectedAddress"]:checked').val();
+                // Gửi giá trị selectedAddressId đến server để lưu vào session
+                $.ajax({
+                    url: '/Cart/SaveSelectedAddress',
+                    type: 'POST',
+                    data: { selectedAddressId: selectedAddressId },
+                    success: function (response) {
+                        console.log("Mã địa chỉ đã được lưu vào session.");
+                    },
+                    error: function () {
+                        console.error("Lỗi khi lưu mã địa chỉ vào session.");
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

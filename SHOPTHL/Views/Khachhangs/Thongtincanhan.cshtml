@@ -1,0 +1,64 @@
+﻿@model IEnumerable<SHOPTHL.Data.Khachhang>
+@{
+    ViewData["Title"] = "Thongtincanhan";
+    Layout = "~/Views/Shared/ChitietSp.cshtml";
+}
+
+<!-- Link Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+<h1>Hồ sơ của tôi</h1>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Họ và tên
+            </th>
+            <th>
+                Số điện thoại
+            </th>
+            <th>
+                Địa chỉ
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Hành động
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tenkh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sdt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Diachi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Makh" class="btn btn-primary">
+                        <i class="fas fa-edit"></i> <!-- Font Awesome edit icon -->
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.Makh" class="btn btn-info">
+                        <i class="fas fa-info-circle"></i> <!-- Font Awesome info icon -->
+                    </a>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Link Bootstrap JS (optional, if you need Bootstrap JS functionality) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

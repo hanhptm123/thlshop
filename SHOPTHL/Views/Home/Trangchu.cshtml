@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Đặt CSS tùy chỉnh của bạn ở đây */
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="~/images/admintrangchu/Screenshot 2024-04-15 221903.png" class="img-fluid float-left" alt="Ảnh động lực">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center font-weight-bold">Tổng doanh thu theo tháng</h5>
+                        <form asp-action="TongDoanhThuTheoThang" asp-controller="Dondathangs" method="get">
+                            <div class="form-group row">
+                                <label for="month" class="col-sm-4 col-form-label text-right">Chọn tháng:</label>
+                                <div class="col-sm-6">
+                                    <select class="form-control" name="month" id="month">
+                                        @for (int mon = 1; mon <= 12; mon++)
+                                        {
+                                            <option value="@mon">@mon</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Set the year to 2024 -->
+                            <input type="hidden" name="year" value="2024">
+                            <div class="form-group row">
+                                <div class="col-sm-6 offset-sm-4">
+                                    <button type="submit" class="btn btn-primary btn-lg">Xem tổng doanh thu</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

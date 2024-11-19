@@ -1,0 +1,104 @@
+﻿@model IEnumerable<SHOPTHL.Data.Loai>
+<!-- CSS -->
+<style>
+    /* Điều chỉnh combo box */
+    #combo-box {
+        width: 150px;
+        max-width: 100%;
+        padding: 6px 10px;
+        background-color: #f8f9fa;
+        color: black;
+        border: 2px solid #007bff;
+        border-radius: 5px;
+        transition: border-color 0.3s ease;
+    }
+
+        /* Khi hover vào combo box */
+        #combo-box:hover {
+            border-color: #0056b3;
+        }
+
+    /* CSS cho nút tìm kiếm */
+    .search-button {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 20px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        overflow: hidden;
+        position: relative;
+    }
+
+        .search-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .search-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 10px; /* Điều chỉnh khoảng cách từ biểu tượng tìm kiếm đến lề trái */
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            background-image: url('https://image.flaticon.com/icons/png/512/48/48936.png');
+            background-size: cover;
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+
+        .search-button:hover::before {
+            opacity: 0;
+        }
+
+    /* CSS cho input tìm kiếm */
+    .search-input {
+        border: 2px solid #007bff;
+        border-radius: 5px;
+        padding: 6px 10px;
+        width: 100%;
+        max-width: 300px; /* Điều chỉnh độ rộng tối đa của input */
+        margin-right: 10px; /* Tạo khoảng cách giữa input và nút tìm kiếm */
+    }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #0056b3;
+        }
+</style>
+
+<!-- HTML -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <select class="custom-select btn-primary form-control" id="combo-box" onchange="location = this.value;">
+                    <option value="Index">Tất cả sản phẩm</option>
+                    @foreach (var item in Model)
+                    {
+                        <option value="/Sanphams/Sanphamtheoloaiadmin?id=@item.Maloai">@item.Tenloai</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <!-- Search product -->
+        <form action="/Sanphams/AdminSearch" method="get" class="form-group">
+            <div class="d-flex align-items-center">
+                <input class="search-input" type="text" name="searching" placeholder="Hãy nhập tên sản phẩm...">
+                <!-- HTML -->
+                <button type="submit" class="search-button">
+                    <i class="fas fa-search search-icon"></i> <!-- Biểu tượng tìm kiếm sử dụng Font Awesome -->
+                </button>
+
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<SHOPTHL.Data.Trangthai>
+
+@{
+    ViewData["Title"] = "Danh sách trạng thái";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h1>Danh sách trạng thái</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Tạo trạng thái mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên trạng thái
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tentrangthai)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Matrangthai" class="btn btn-warning">
+                        <i class="fas fa-edit"></i> <!-- Biểu tượng chỉnh sửa -->
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.Matrangthai" class="btn btn-info">
+                        <i class="fas fa-info-circle"></i> <!-- Biểu tượng xem chi tiết -->
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.Matrangthai" class="btn btn-danger">
+                        <i class="fas fa-trash-alt"></i> <!-- Biểu tượng xóa -->
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

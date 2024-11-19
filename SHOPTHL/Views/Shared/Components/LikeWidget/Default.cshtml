@@ -1,0 +1,8 @@
+﻿@model Like
+@{
+    int itemCount = Model?.Lines.Count ?? 0; // Số lượng hàng, mặc định là 0 nếu giỏ hàng null hoặc không có hàng
+}
+
+<a href="/Like">
+    <i class="fas fa-heart" style="font-size: 1.5em;"></i>
+</a>

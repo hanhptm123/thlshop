@@ -1,0 +1,70 @@
+﻿@model IEnumerable<SHOPTHL.Data.Dondathang>
+
+
+
+
+@{
+    ViewData["Title"] = "Dondathangtheoloaiadmin";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Đặt CSS tùy chỉnh của bạn ở đây */
+    </style>
+</head>
+
+<body>
+  
+    <div class="container">
+        <h1>Danh sách các đơn đặt hàng</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Ngày đặt hàng</th>
+                    <th>Họ tên người nhận</th>
+                    <th>Địa chỉ giao hàng</th>
+                    <th>Số điện thoại</th>
+                    <th>Tên phương thức vận chuyển</th>
+                    <th>Tổng tiền</th>
+                    <th>Trạng thái</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    var total = item.Tongtien + item.MaptvcNavigation?.Phivc;
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Ngaydh)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Hoten)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Diachi)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Sdt)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MaptvcNavigation.Tenptvc)</td>
+                        <td>@total.000đ</td>
+                        <td>@Html.DisplayFor(modelItem => item.MatrangthaiNavigation.Tentrangthai)</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Maddh" class="btn btn-warning">
+                                <i class="fas fa-edit"></i> <!-- Biểu tượng chỉnh sửa -->
+                            </a>
+
+                            <a href="@Url.Action("Ctddhadmin", "Ctddhs", new { id = item.Maddh })" class="btn btn-secondary">
+                                <i class="fas fa-info-circle"></i> <!-- Biểu tượng chi tiết -->
+                            </a>
+
+                            <a asp-action="Delete" asp-route-id="@item.Maddh" class="btn btn-danger">
+                                <i class="fas fa-trash-alt"></i> <!-- Biểu tượng xóa -->
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

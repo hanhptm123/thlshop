@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Cart
+@{
+    int itemCount = Model?.Lines.Count ?? 0; // Số lượng hàng, mặc định là 0 nếu giỏ hàng null hoặc không có hàng
+}
+
+<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="@itemCount">
+    <a href="/Cart">
+        <i class="zmdi zmdi-shopping-cart"></i>
+    </a>
+</div>

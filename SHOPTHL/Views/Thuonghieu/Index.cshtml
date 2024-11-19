@@ -1,0 +1,39 @@
+﻿@model IEnumerable<SHOPTHL.Data.Thuonghieu>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Admin";
+}
+
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm thương hiệu mới</a>
+</p>
+<h1>Danh sách các thương hiệu</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên thương hiệu
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenth)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Math" class="btn btn-warning">
+                        <i class="fas fa-edit"></i> <!-- Biểu tượng chỉnh sửa -->
+                    </a> |
+                    <a asp-action="Delete" asp-route-id="@item.Math" class="btn btn-danger">
+                        <i class="fas fa-trash-alt"></i> <!-- Biểu tượng xóa -->
+                    </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

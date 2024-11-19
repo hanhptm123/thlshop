@@ -1,0 +1,34 @@
+﻿@model SHOPTHL.Data.Trangthai
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h1>Tạo trạng thái mới</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Tentrangthai" class="control-label">Tên trạng thái</label>
+                <input asp-for="Tentrangthai" class="form-control" />
+                <span asp-validation-for="Tentrangthai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Tạo trạng thái" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-info">Trở về danh sách</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

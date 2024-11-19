@@ -1,0 +1,60 @@
+﻿@model IEnumerable<SHOPTHL.Data.Nhacungcap>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Admin";
+}
+
+<h1>Danh sách các nhà cung cấp</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm nhà cung cấp mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên nhà cung cấp
+            </th>
+            <th>
+                Số điện thoại
+            </th>
+            <th>
+                Địa chỉ
+            </th>
+            <th>
+                Email
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenncc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sdt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diachi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Mancc" class="btn btn-warning">
+                        <i class="fas fa-edit"></i> <!-- Biểu tượng chỉnh sửa -->
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.Mancc" class="btn btn-info">
+                        <i class="fas fa-info-circle"></i> <!-- Biểu tượng xem chi tiết -->
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.Mancc" class="btn btn-danger">
+                        <i class="fas fa-trash-alt"></i> <!-- Biểu tượng xóa -->
+                    </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

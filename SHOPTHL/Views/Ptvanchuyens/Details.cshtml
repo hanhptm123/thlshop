@@ -1,0 +1,31 @@
+﻿@model SHOPTHL.Data.Ptvanchuyen
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Ptvanchuyen</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tenptvc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tenptvc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Phivc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Phivc)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Maptvc">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

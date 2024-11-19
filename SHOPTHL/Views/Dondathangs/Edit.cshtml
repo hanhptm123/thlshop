@@ -1,0 +1,80 @@
+﻿@model SHOPTHL.Data.Dondathang
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Đặt CSS tùy chỉnh của bạn ở đây */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cập nhật trạng thái đơn hàng</h1>
+        <hr />
+        <div class="row">
+            <div class="col-md-6">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger">Mã đơn hàng</div>
+                    <input type="hidden" asp-for="Maddh" />
+                    <div class="form-group">
+                        <label asp-for="Tongtien" class="control-label">Tổng tiền</label>
+                        <input asp-for="Tongtien" class="form-control" />
+                        <span asp-validation-for="Tongtien" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Makh" class="control-label">Mã KH</label>
+                        <select asp-for="Makh" class="form-control" asp-items="ViewBag.Makh"></select>
+                        <span asp-validation-for="Makh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Maptvc" class="control-label">Phương thức vận chuyển</label>
+                        <select asp-for="Maptvc" class="form-control" asp-items="ViewBag.Maptvc"></select>
+                        <span asp-validation-for="Maptvc" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Ngaydh" class="control-label">Ngày đặt hàng</label>
+                        <input asp-for="Ngaydh" class="form-control" />
+                        <span asp-validation-for="Ngaydh" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Matrangthai" class="control-label">Trạng thái</label>
+                        <select asp-for="Matrangthai" class="form-control" asp-items="ViewBag.Matrangthai"></select>
+                        <span asp-validation-for="Matrangthai" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Hoten" class="control-label">Họ tên người nhận</label>
+                        <input asp-for="Hoten" class="form-control" />
+                        <span asp-validation-for="Hoten" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Diachi" class="control-label">Địa chỉ nhận hàng</label>
+                        <input asp-for="Diachi" class="form-control" />
+                        <span asp-validation-for="Diachi" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Sdt" class="control-label">Số điện thoại</label>
+                        <input asp-for="Sdt" class="form-control" />
+                        <span asp-validation-for="Sdt" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Cập nhật" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a asp-action="Index" class="btn btn-secondary">Trở về trang danh sách</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+﻿@model SHOPTHL.Data.Diachi
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/ChitietSp.cshtml";
+}
+<style>
+    .hidden {
+        display: none;
+    }
+</style>
+
+
+
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <h1>Thêm địa chỉ mới</h1>
+
+        <hr />
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group hidden">
+                <label asp-for="Makh" class="control-label"></label>
+                <select asp-for="Makh" class="form-control" asp-items="ViewBag.Makh">
+                    <option value="">-- Select a customer --</option>
+                </select>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Tennguoinhan" class="control-label">Tên người nhận</label>
+                <input asp-for="Tennguoinhan" class="form-control" />
+                <span asp-validation-for="Tennguoinhan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sdt" class="control-label">Số điện thoại</label>
+                <input asp-for="Sdt" class="form-control" />
+                <span asp-validation-for="Sdt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diachi1" class="control-label">Địa chỉ nhận hàng</label>
+                <input asp-for="Diachi1" class="form-control" />
+                <span asp-validation-for="Diachi1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Thêm" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div style=" min-height:100px;" class="hero-header"></div>
+            

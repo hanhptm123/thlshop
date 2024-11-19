@@ -1,0 +1,37 @@
+﻿@model IEnumerable<SHOPTHL.Data.Ptvanchuyen>
+@{
+    bool isFirstItem = true;
+}
+
+@foreach (var item in Model)
+{
+    <div class="ship-option">
+        <label>
+            <input type="radio" id="@("radio_" + item.Maptvc)" name="selectedItem" value="@item.Maptvc" @(isFirstItem ? "checked" : "") />
+            <span class="ship-option-label">@item.Tenptvc:</span>
+            <span class="phivc-value" data-phivc="@item.Phivc">@item.Phivc.000đ</span>
+        </label>
+    </div>
+    isFirstItem = false;
+}
+
+<button onclick="checkout()">Thanh toán</button>
+
+<script>
+    function checkout() {
+        var selectedItem = $("input[name='selectedItem']:checked").val();
+        $.ajax({
+            type: 'POST',
+            url: '/Cart/Checkout', // Thay 'ControllerName' bằng tên controller thực tế của bạn
+            data: { selectedMaptvc: selectedItem },
+            success: function (response) {
+                alert(response);
+                window.location.href = "/Dondathangs/Dondathangtheomakh"; // Chuyển hướng đến trang thông tin đơn đặt hàng
+            },
+            error: function () {
+                alert("Lỗi đặt hàng. Vui lòng thử lại.");
+            }
+        });
+    }
+
+</script>

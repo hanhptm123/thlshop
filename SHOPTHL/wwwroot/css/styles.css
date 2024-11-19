@@ -1,0 +1,43 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.stext-109, .mtext-105, .stext-102, .mtext-106, .stext-107 {
+    font-family: 'Open Sans', sans-serif;
+}
+.js-name-detail {
+    font-weight: bold; /* In đậm */
+    color: #ff0000; /* Màu đỏ */
+    /* Thêm các thuộc tính CSS khác tùy ý */
+}
+.stext-102.cl3.p-t-23 {
+    font-style: italic; /* Nghiêng */
+    color: #0000ff; /* Màu xanh */
+    /* Thêm các thuộc tính CSS khác tùy ý */
+}
+/* Đảm bảo bảng có độ rộng 100% của container cha */
+.table-shopping-cart {
+    width: 100%;
+}
+
+    /* Đặt chiều rộng của các cột */
+    .table-shopping-cart th,
+    .table-shopping-cart td {
+        width: 20%; /* Đặt chiều rộng của các cột là 20% */
+    }
+
+    /* Đảm bảo khoảng cách giữa các cột là đều đặn */
+    .table-shopping-cart th,
+    .table-shopping-cart td {
+        padding: 15px; /* Đặt khoảng cách giữa các cột là 15px */
+    }
+
+    /* Căn giữa nội dung trong các ô */
+    .table-shopping-cart th,
+    .table-shopping-cart td {
+        text-align: center;
+    }

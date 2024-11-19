@@ -1,0 +1,84 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Bootstrap4;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<SHOPTHL.Data.Sanpham>
+@{
+    ViewData["Title"] = "AdminSearch";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm sản phẩm mới</a>
+</p>
+<div class="bg0 m-t-23 p-b-140">
+    <div class="container">
+
+
+        @await Component.InvokeAsync("Loaiadmin")
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h1>Danh sách sản phẩm </h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Hình ảnh</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Đơn giá</th>
+                    <th>Phần trăm giảm giá</th>
+                    <th>Loại</th>
+                    <th>Thương hiệu</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@("~/image/"+item.Hinhanh)" asp-append-version="true" width="64px" height="64px" />
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.Tensp)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Dongia)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MagiamgiaNavigation.Phantramgiam)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MaloaiNavigation.Tenloai)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MathNavigation.Tenth)</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Masp" class="btn btn-warning">
+                                <i class="fas fa-edit"></i> <!-- Biểu tượng chỉnh sửa -->
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.Masp" class="btn btn-info">
+                                <i class="fas fa-info-circle"></i> <!-- Biểu tượng xem chi tiết -->
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.Masp" class="btn btn-danger">
+                                <i class="fas fa-trash-alt"></i> <!-- Biểu tượng xóa -->
+                            </a>
+
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div>
+    @Html.PagedListPager(Model, page => Url.Action("AdminSearch", "Sanphams", new { page = page, searching = Context.Request.Query["searching"] }), new PagedListRenderOptions()
+{
+    DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+    DisplayLinkToLastPage = PagedListDisplayMode.Always,
+    DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+    DisplayLinkToNextPage = PagedListDisplayMode.Always,
+    DisplayLinkToIndividualPages = true,
+    MaximumPageNumbersToDisplay = 10,
+    DisplayEllipsesWhenNotShowingAllPageNumbers = true,
+    LinkToFirstPageFormat = "Đầu",
+    LinkToPreviousPageFormat = "<",
+    LinkToNextPageFormat = ">",
+    LinkToLastPageFormat = "Cuối",
+    PageClasses = new string[] { "page-item", "page-link" },
+    ContainerDivClasses = new string[] { "pagination-container" },
+    UlElementClasses = new string[] { "pagination" },
+    LiElementClasses = new string[] { "page-item" }
+})
+</div>

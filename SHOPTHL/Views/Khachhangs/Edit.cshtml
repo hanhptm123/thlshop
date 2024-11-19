@@ -1,0 +1,69 @@
+﻿@model SHOPTHL.Data.Khachhang
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/ChitietSp.cshtml";
+}
+
+<style>
+    /* Custom CSS styles */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    .hero-header {
+        background-color: #f8f9fa;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <h1 class="mt-4">Chỉnh sửa hồ sơ</h1>
+            <hr />
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Makh" />
+
+                <div class="form-group">
+                    <label asp-for="Tenkh" class="control-label">Họ và tên</label>
+                    <input asp-for="Tenkh" class="form-control" />
+                    <span asp-validation-for="Tenkh" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Sdt" class="control-label">Số điện thoại</label>
+                    <input asp-for="Sdt" class="form-control" />
+                    <span asp-validation-for="Sdt" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Diachi" class="control-label">Địa chỉ</label>
+                    <input asp-for="Diachi" class="form-control" />
+                    <span asp-validation-for="Diachi" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div style="min-height: 100px;" class="hero-header"></div>

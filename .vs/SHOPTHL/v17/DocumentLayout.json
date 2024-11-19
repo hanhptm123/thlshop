@@ -1,0 +1,2569 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\THLSHOp\\2\\SHOPTHL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\ctsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\ctsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\spshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\spshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\thlshop2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\thlshop2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\danhgia\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\danhgia\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\home\\ctsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\home\\ctsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\chitietsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\chitietsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\danhgiums\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\danhgiums\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\ctddhs\\ctddhdagiao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\ctddhs\\ctddhdagiao.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\danhgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\danhgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\ctddh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\ctddh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\danhgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\danhgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\taikhoanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\taikhoanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\danhgiums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\danhgiums\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\taikhoans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\taikhoans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\spdanhgia\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\spdanhgia\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\sanphamtheoloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\sanphamtheoloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\spdanhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\spdanhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\ctddhs\\ctddhtheomakh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\ctddhs\\ctddhtheomakh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\thongtinnhanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\thongtinnhanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\thongtinnhanhang\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\thongtinnhanhang\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\danhgiums\\danhgiatheomasp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\danhgiums\\danhgiatheomasp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\loaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\loaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\ctddhscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\ctddhscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\diachis\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\diachis\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\diachiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\diachiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\baivietscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\baivietscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\giamgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\giamgiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\dondathangs\\dondathangtheomakh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\dondathangs\\dondathangtheomakh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\cartwidget\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\cartwidget\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\likewidget\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\likewidget\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\like\\like.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\like\\like.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\likewidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\likewidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\cartwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\cartwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\spsale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\spsale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\spnew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\spnew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\dondathangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\dondathangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\thaydoidc\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\thaydoidc\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\footer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\footer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\infrastructure\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\infrastructure\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\khachhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\dondathangs\\dondathangtheoloaiadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\dondathangs\\dondathangtheoloaiadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\dondathangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\dondathangs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\cart\\shopping_success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\cart\\shopping_success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\trangthaiddh\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\trangthaiddh\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\loaiadmin\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\loaiadmin\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\sanphamtheoloaiadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\sanphamtheoloaiadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\trangthaiddh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\trangthaiddh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\dondathangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\dondathangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\dondathangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\dondathangs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\dondathangs\\tongdoanhthutheothang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\dondathangs\\tongdoanhthutheothang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\giamgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\giamgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\loaiadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\loaiadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\tongdoanhthuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\tongdoanhthuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\diachis\\diachitheomakh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\diachis\\diachitheomakh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\dondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\dondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\profileuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\profileuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\khachhangs\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\khachhangs\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\thaydoidc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\thaydoidc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\ctmauscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\ctmauscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\ship\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\ship\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\diachi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\diachi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\trangthais\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\trangthais\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\khachhangs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\khachhangs\\thongtincanhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\khachhangs\\thongtincanhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\ctddhs\\ctddhadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\ctddhs\\ctddhadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\ctsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\ctsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\thuonghieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\thuonghieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\taikhoans\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\taikhoans\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\taikhoans\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\taikhoans\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\khachhangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\khachhangs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\diachis\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\diachis\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\diachis\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\diachis\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\sizescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\sizescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\ptvanchuyenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\ptvanchuyenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\nhacungcapscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\nhacungcapscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\trangthaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\trangthaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\home\\trangchu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\home\\trangchu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\loais\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\loais\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\shoping-cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\shoping-cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\adminsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\adminsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\baiviets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\baiviets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\trangthais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\trangthais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\ptvanchuyens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\ptvanchuyens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\thuonghieu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\thuonghieu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\thuonghieu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\thuonghieu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\loais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\loais\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\nhacungcaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\nhacungcaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\loais\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\loais\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\relatedproduct\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\relatedproduct\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sanphams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sanphams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\baiviets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\baiviets\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\baiviets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\baiviets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\baiviets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\baiviets\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\baiviets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\baiviets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\baiviets\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\baiviets\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\ctddhs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\ctddhs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\models\\relatedproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\models\\relatedproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\trangthai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\trangthai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\css\\util.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\css\\util.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\css\\pagination.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\css\\pagination.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\shared\\components\\size\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\shared\\components\\size\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\sizes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\sizes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\ptvanchuyens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\ptvanchuyens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\ctmau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\ctmau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\images\\banner-05.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\images\\banner-05.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\images\\banner-03.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\images\\banner-03.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\images\\avatar-01.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\images\\avatar-01.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\images\\banner-01.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\images\\banner-01.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\images\\about-02.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\images\\about-02.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\images\\admintrangchu\\admin.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\images\\admintrangchu\\admin.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\images\\about-01.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\images\\about-01.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\images\\slide-01.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\images\\slide-01.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\giamgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\giamgium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\wwwroot\\home-03.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\wwwroot\\home-03.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\thuonghieu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\thuonghieu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\thuonghieu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\thuonghieu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\thuonghieu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\thuonghieu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\nhacungcaps\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\nhacungcaps\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\loais\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\loais\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\nhacungcaps\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\nhacungcaps\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\loais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\loais\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\nhacungcaps\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\nhacungcaps\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\views\\nhacungcaps\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\views\\nhacungcaps\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|e:\\thlshop\\2\\shopthl\\shopthl\\data\\mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CEE1C7F-3618-4FE1-8A7A-BBAEB096C443}|SHOPTHL\\SHOPTHL.csproj|solutionrelative:shopthl\\data\\mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpShop.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\SpShop.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\SpShop.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\SpShop.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\SpShop.cshtml",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAGwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CtSp.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\CtSp.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\CtSp.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\CtSp.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\CtSp.cshtml",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAAAIwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Sanpham.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Sanpham.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Sanpham.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Sanpham.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\CartController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\CartController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAADwvysAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SanphamsController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\SanphamsController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\SanphamsController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\SanphamsController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\SanphamsController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswGQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Shop.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Shop.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Shop.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Shop.cshtml",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAMAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Thlshop2Context.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Thlshop2Context.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Thlshop2Context.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Thlshop2Context.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Thlshop2Context.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAiwFgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\appsettings.json",
+              "RelativeDocumentMoniker": "SHOPTHL\\appsettings.json",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\appsettings.json",
+              "RelativeToolTip": "SHOPTHL\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-28T03:17:11.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\DanhGia\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\DanhGia\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\DanhGia\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\DanhGia\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Danhgiums\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Danhgiums\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Danhgiums\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Danhgiums\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Ctddhdagiao.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ctddhs\\Ctddhdagiao.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Ctddhs\\Ctddhdagiao.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ctddhs\\Ctddhdagiao.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Ctddhs\\Ctddhdagiao.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DanhgiumsController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\DanhgiumsController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\DanhgiumsController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\DanhgiumsController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\DanhgiumsController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAwGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Danhgium.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Danhgium.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Danhgium.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Danhgium.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Danhgium.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Ctddh.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Ctddh.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Ctddh.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Ctddh.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Ctddh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:10.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CtSp.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Home\\CtSp.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Home\\CtSp.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Home\\CtSp.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Home\\CtSp.cshtml",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAG4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChitietSp.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\ChitietSp.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\ChitietSp.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\ChitietSp.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\ChitietSp.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAE0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TaikhoansController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\TaikhoansController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\TaikhoansController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\TaikhoansController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\TaikhoansController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAADgv18AAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Taikhoans\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Taikhoans\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Taikhoans\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Taikhoans\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Spdanhgia.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Spdanhgia.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Spdanhgia.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Spdanhgia.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Spdanhgia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAADJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Spdanhgia\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\Spdanhgia\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Spdanhgia\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\Spdanhgia\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Sanphamtheoloai.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Sanphamtheoloai.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\Sanphamtheoloai.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Sanphamtheoloai.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\Sanphamtheoloai.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Danhgiums\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Danhgiums\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Danhgiums\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Danhgiums\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DanhGia.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\DanhGia.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\DanhGia.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\DanhGia.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\DanhGia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Thongtinnhanhang.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Thongtinnhanhang.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Thongtinnhanhang.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Thongtinnhanhang.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Thongtinnhanhang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Danhgiatheomasp.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Danhgiums\\Danhgiatheomasp.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Danhgiums\\Danhgiatheomasp.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Danhgiums\\Danhgiatheomasp.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Danhgiums\\Danhgiatheomasp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Ctddhtheomakh.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ctddhs\\Ctddhtheomakh.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Ctddhs\\Ctddhtheomakh.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ctddhs\\Ctddhtheomakh.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Ctddhs\\Ctddhtheomakh.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAACIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Thongtinnhanhang\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\Thongtinnhanhang\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Thongtinnhanhang\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\Thongtinnhanhang\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoaisController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\LoaisController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\LoaisController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\LoaisController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\LoaisController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CtddhsController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\CtddhsController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\CtddhsController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\CtddhsController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\CtddhsController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAMwCgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Khachhang.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Khachhang.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Khachhang.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Khachhang.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Khachhang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Navbar.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Navbar.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Navbar.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Navbar.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Navbar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Dondathangtheomakh.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Dondathangtheomakh.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Dondathangs\\Dondathangtheomakh.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Dondathangtheomakh.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Dondathangs\\Dondathangtheomakh.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswDQAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DiachisController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\DiachisController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\DiachisController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\DiachisController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\DiachisController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Diachis\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Diachis\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Diachis\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Diachis\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BaivietsController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\BaivietsController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\BaivietsController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\BaivietsController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\BaivietsController.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAIwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "GiamgiumsController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\GiamgiumsController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\GiamgiumsController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\GiamgiumsController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\GiamgiumsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Like.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Like\\Like.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Like\\Like.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Like\\Like.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Like\\Like.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAIwIMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Cart\\Cart.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Cart\\Cart.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Cart\\Cart.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Cart\\Cart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\LikeWidget\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\LikeWidget\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\LikeWidget\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\LikeWidget\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\CartWidget\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\CartWidget\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\CartWidget\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\CartWidget\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LikeWidget.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\LikeWidget.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\LikeWidget.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\LikeWidget.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\LikeWidget.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Like.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Like.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Like.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Like.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Like.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CartWidget.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\CartWidget.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\CartWidget.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\CartWidget.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\CartWidget.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SpSale.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\SpSale.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\SpSale.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\SpSale.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\SpSale.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DondathangsController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\DondathangsController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\DondathangsController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\DondathangsController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\DondathangsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SpNew.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\SpNew.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\SpNew.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\SpNew.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\SpNew.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Program.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Program.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Program.cs",
+              "RelativeToolTip": "SHOPTHL\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvygAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\ThaydoiDC\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\ThaydoiDC\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\ThaydoiDC\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\ThaydoiDC\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Cart.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Cart.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Footer.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Footer.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Footer.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Footer.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Footer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Dondathangtheoloaiadmin.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Dondathangtheoloaiadmin.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Dondathangs\\Dondathangtheoloaiadmin.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Dondathangtheoloaiadmin.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Dondathangs\\Dondathangtheoloaiadmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Infrastructure\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Infrastructure\\SessionExtensions.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Infrastructure\\SessionExtensions.cs",
+              "RelativeToolTip": "SHOPTHL\\Infrastructure\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Loaiadmin\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\Loaiadmin\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Loaiadmin\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\Loaiadmin\\Default.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "KhachhangsController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\KhachhangsController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\KhachhangsController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\KhachhangsController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\KhachhangsController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAwG4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Trangthaiddh\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Trangthaiddh\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Trangthaiddh\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Trangthaiddh\\Default.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAGsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Shopping_success.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Cart\\Shopping_success.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Cart\\Shopping_success.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Cart\\Shopping_success.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Cart\\Shopping_success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Sanphamtheoloaiadmin.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Sanphamtheoloaiadmin.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\Sanphamtheoloaiadmin.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Sanphamtheoloaiadmin.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\Sanphamtheoloaiadmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Dondathangs\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Dondathangs\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Dondathangs\\Delete.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Delete.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Dondathangs\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Trangthaiddh.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Trangthaiddh.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Trangthaiddh.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Trangthaiddh.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Trangthaiddh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "TongDoanhThuTheoThang.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\TongDoanhThuTheoThang.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Dondathangs\\TongDoanhThuTheoThang.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\TongDoanhThuTheoThang.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Dondathangs\\TongDoanhThuTheoThang.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Dondathangs\\Edit.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Dondathangs\\Edit.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Dondathangs\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "GiamgiaController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\GiamgiaController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\GiamgiaController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\GiamgiaController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\GiamgiaController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Loaiadmin.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Loaiadmin.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Loaiadmin.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Loaiadmin.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Loaiadmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "TongDoanhThuViewModel.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\TongDoanhThuViewModel.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\TongDoanhThuViewModel.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\TongDoanhThuViewModel.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\TongDoanhThuViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Diachitheomakh.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Diachis\\Diachitheomakh.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Diachis\\Diachitheomakh.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Diachis\\Diachitheomakh.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Diachis\\Diachitheomakh.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Dondathang.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Dondathang.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Dondathang.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Dondathang.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Dondathang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ThaydoiDC.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\ThaydoiDC.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\ThaydoiDC.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\ThaydoiDC.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\ThaydoiDC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ViewProfile.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Khachhangs\\ViewProfile.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Khachhangs\\ViewProfile.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Khachhangs\\ViewProfile.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Khachhangs\\ViewProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Size.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Size.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Size.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Size.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Size.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ProfileUser.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\ProfileUser.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\ProfileUser.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\ProfileUser.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\ProfileUser.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "_Admin.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\_Admin.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\_Admin.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\_Admin.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\_Admin.cshtml",
+              "ViewState": "AQIAAPkAAAAAAAAAAAAAAHMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "CtmausController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\CtmausController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\CtmausController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\CtmausController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\CtmausController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwJ8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Ship\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\Ship\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Ship\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\Ship\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Ship.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Ship.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\Ship.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\Ship.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\Ship.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Diachi.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Diachi.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Diachi.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Diachi.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Diachi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Trangthais\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Trangthais\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Trangthais\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Trangthais\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Khachhangs\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Khachhangs\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Khachhangs\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Khachhangs\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Thongtincanhan.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Khachhangs\\Thongtincanhan.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Khachhangs\\Thongtincanhan.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Khachhangs\\Thongtincanhan.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Khachhangs\\Thongtincanhan.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Ctddhadmin.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ctddhs\\Ctddhadmin.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Ctddhs\\Ctddhadmin.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ctddhs\\Ctddhadmin.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Ctddhs\\Ctddhadmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Ctsize.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Ctsize.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Ctsize.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Ctsize.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Ctsize.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Taikhoan.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Taikhoan.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Taikhoan.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Taikhoan.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Taikhoan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Taikhoans\\Login.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Taikhoans\\Login.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Taikhoans\\Login.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Taikhoans\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Taikhoans\\Register.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Taikhoans\\Register.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Taikhoans\\Register.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Taikhoans\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "ThuonghieuController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\ThuonghieuController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\ThuonghieuController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\ThuonghieuController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\ThuonghieuController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAGEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Diachis\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Diachis\\Edit.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Diachis\\Edit.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Diachis\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Khachhangs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Khachhangs\\Edit.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Khachhangs\\Edit.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Khachhangs\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Diachis\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Diachis\\Delete.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Diachis\\Delete.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Diachis\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "SizesController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\SizesController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\SizesController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\SizesController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\SizesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "PtvanchuyensController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\PtvanchuyensController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\PtvanchuyensController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\PtvanchuyensController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\PtvanchuyensController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "NhacungcapsController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\NhacungcapsController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\NhacungcapsController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\NhacungcapsController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\NhacungcapsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "TrangthaisController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\TrangthaisController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\TrangthaisController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\TrangthaisController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\TrangthaisController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SHOPTHL\\appsettings.Development.json",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\appsettings.Development.json",
+              "RelativeToolTip": "SHOPTHL\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-28T03:17:11.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\Edit.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Edit.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Details.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\Details.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Details.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\Details.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAD0AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Trangchu.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Home\\Trangchu.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Home\\Trangchu.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Home\\Trangchu.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Home\\Trangchu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Dangnhap.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Dangnhap.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Dangnhap.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Dangnhap.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Dangnhap.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACkAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Home\\Shop.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Home\\Shop.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Home\\Shop.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Home\\Shop.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAwCAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Loais\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Loais\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "shoping-cart.html",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\shoping-cart.html",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\shoping-cart.html",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\shoping-cart.html",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\shoping-cart.html",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-28T03:17:11.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Baiviets\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Baiviets\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBZwDkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "AdminSearch.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\AdminSearch.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\AdminSearch.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\AdminSearch.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\AdminSearch.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Trangthais\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Trangthais\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Trangthais\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Trangthais\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ptvanchuyens\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Ptvanchuyens\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ptvanchuyens\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Ptvanchuyens\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwCcAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Thuonghieu\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Thuonghieu\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Thuonghieu\\Edit.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Edit.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Thuonghieu\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Loais\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Loais\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Nhacungcaps\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Nhacungcaps\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBZwDQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Loais\\Edit.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Edit.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Loais\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\RelatedProduct\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\RelatedProduct\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\RelatedProduct\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\RelatedProduct\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sanphams\\Delete.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sanphams\\Delete.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sanphams\\Delete.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwD8AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Baiviets\\Edit.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Edit.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Baiviets\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Details.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Baiviets\\Details.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Details.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Baiviets\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Baiviets\\Delete.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Delete.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Baiviets\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Baiviets\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Baiviets\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Blog.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Baiviets\\Blog.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Baiviets\\Blog.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Baiviets\\Blog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ctddhs\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Ctddhs\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ctddhs\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Ctddhs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwD4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "RelatedProduct.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\RelatedProduct.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Models\\RelatedProduct.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Models\\RelatedProduct.cs",
+              "RelativeToolTip": "SHOPTHL\\Models\\RelatedProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "main.css",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\css\\main.css",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\css\\main.css",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\css\\main.css",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\css\\main.css",
+              "ViewState": "AQIAAAQCAAAAAAAAAAAkwD0CAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-28T03:17:11.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "util.css",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\css\\util.css",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\css\\util.css",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\css\\util.css",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\css\\util.css",
+              "ViewState": "AQIAANgAAAAAAAAAAAAkwAYBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-28T03:17:11.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "Trangthai.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Trangthai.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Trangthai.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Trangthai.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Trangthai.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "styles.css",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\css\\styles.css",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\css\\styles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-28T03:17:11.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "pagination.css",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\css\\pagination.css",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\css\\pagination.css",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\css\\pagination.css",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\css\\pagination.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-28T03:17:11.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SHOPTHL\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SHOPTHL\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-28T03:17:11.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Size\\Default.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Shared\\Components\\Size\\Default.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Shared\\Components\\Size\\Default.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Shared\\Components\\Size\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ptvanchuyens\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Ptvanchuyens\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Ptvanchuyens\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Ptvanchuyens\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sizes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Sizes\\Index.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Sizes\\Index.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Sizes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "Ctmau.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Ctmau.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Ctmau.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Ctmau.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Ctmau.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 140,
+              "Title": "about-02.jpg",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\about-02.jpg",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\images\\about-02.jpg",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\about-02.jpg",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\images\\about-02.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-28T03:17:11.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SHOPTHL\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "banner-03.jpg",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\banner-03.jpg",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\images\\banner-03.jpg",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\banner-03.jpg",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\images\\banner-03.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-28T03:17:11.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 139,
+              "Title": "banner-01.jpg",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\banner-01.jpg",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\images\\banner-01.jpg",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\banner-01.jpg",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\images\\banner-01.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-28T03:17:11.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "avatar-01.jpg",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\avatar-01.jpg",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\images\\avatar-01.jpg",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\avatar-01.jpg",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\images\\avatar-01.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-28T03:17:11.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "banner-05.jpg",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\banner-05.jpg",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\images\\banner-05.jpg",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\banner-05.jpg",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\images\\banner-05.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-28T03:17:11.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 141,
+              "Title": "admin.png",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\admintrangchu\\admin.png",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\images\\admintrangchu\\admin.png",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\admintrangchu\\admin.png",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\images\\admintrangchu\\admin.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-28T03:17:11.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 142,
+              "Title": "about-01.jpg",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\about-01.jpg",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\images\\about-01.jpg",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\about-01.jpg",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\images\\about-01.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-28T03:17:11.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 143,
+              "Title": "slide-01.jpg",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\slide-01.jpg",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\images\\slide-01.jpg",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\images\\slide-01.jpg",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\images\\slide-01.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-28T03:17:11.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 144,
+              "Title": "Giamgium.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Giamgium.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Giamgium.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Giamgium.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Giamgium.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 145,
+              "Title": "home-03.html",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\home-03.html",
+              "RelativeDocumentMoniker": "SHOPTHL\\wwwroot\\home-03.html",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\wwwroot\\home-03.html",
+              "RelativeToolTip": "SHOPTHL\\wwwroot\\home-03.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-28T03:17:11.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 146,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Details.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Thuonghieu\\Details.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Details.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Thuonghieu\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 147,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Thuonghieu\\Delete.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Delete.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Thuonghieu\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 148,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Thuonghieu\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Thuonghieu\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Thuonghieu\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 149,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Create.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Nhacungcaps\\Create.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Create.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Nhacungcaps\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 151,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Nhacungcaps\\Delete.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Delete.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Nhacungcaps\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 150,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Loais\\Delete.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Delete.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Loais\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 152,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Details.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Loais\\Details.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Loais\\Details.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Loais\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 153,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Nhacungcaps\\Edit.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Edit.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Nhacungcaps\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 154,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Details.cshtml",
+              "RelativeDocumentMoniker": "SHOPTHL\\Views\\Nhacungcaps\\Details.cshtml",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Views\\Nhacungcaps\\Details.cshtml",
+              "RelativeToolTip": "SHOPTHL\\Views\\Nhacungcaps\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T03:17:11.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 155,
+              "Title": "Mau.cs",
+              "DocumentMoniker": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Mau.cs",
+              "RelativeDocumentMoniker": "SHOPTHL\\Data\\Mau.cs",
+              "ToolTip": "E:\\THLSHOp\\2\\SHOPTHL\\SHOPTHL\\Data\\Mau.cs",
+              "RelativeToolTip": "SHOPTHL\\Data\\Mau.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T03:17:11.938Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 280,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

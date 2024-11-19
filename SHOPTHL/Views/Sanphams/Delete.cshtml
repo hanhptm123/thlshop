@@ -1,0 +1,66 @@
+﻿@model SHOPTHL.Data.Sanpham
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_Admin";
+}
+
+<h1>Xóa sản phẩm</h1>
+
+<h3>Bạn có chắn chắn muốn xóa ?</h3>
+<div>
+
+    <hr />
+    <dl class="row">
+     
+        <dt class="col-sm-2">
+            Tên sản phẩm :
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tensp)
+        </dd>
+        <dt class="col-sm-2">
+            Đơn giá :
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Dongia)
+        </dd>
+        <dt class="col-sm-2">
+            Mô tả ngắn :
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Mota)
+        </dd>
+
+        <dt class="col-sm-2">
+            Phần trăm giảm giá :
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MagiamgiaNavigation.Phantramgiam)
+        </dd>
+        <dt class="col-sm-2">
+            Tên loại :
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MaloaiNavigation.Tenloai)
+        </dd>
+        <dt class="col-sm-2">
+            Tên thương hiệu :
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MathNavigation.Tenth)
+        </dd>
+        <dt class="col-sm-2">
+            Tên nhà cung cấp :
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ManccNavigation.Tenncc)
+        </dd>
+
+    </dl>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Masp" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-info" >Trở về trang danh sách</a>
+    </form>
+</div>

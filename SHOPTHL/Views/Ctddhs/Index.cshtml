@@ -1,0 +1,73 @@
+﻿@model IEnumerable<SHOPTHL.Data.Ctddh>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Đặt CSS tùy chỉnh của bạn ở đây */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Chi tiết đơn đặt hàng</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Mã đơn hàng
+                    </th>
+                    <th>
+                        Tên sản phẩm
+                    </th>
+                    <th>
+                        Đơn giá
+                    </th>
+                    <th>
+                        Số lượng
+                    </th>
+                    <th>
+                        Thành tiền
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MaddhNavigation.Maddh)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MaspNavigation.Tensp)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MaspNavigation.Dongia)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Soluong)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Thanhtien)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Mactddh" class="btn btn-primary">Edit</a> |
+                            <a href="@Url.Action("Ctddhadmin", "Ctddhs", new { id = item.Maddh })" class="btn btn-secondary">Chi tiết</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Mactddh" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

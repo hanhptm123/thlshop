@@ -1,0 +1,63 @@
+﻿@model SHOPTHL.Data.Dondathang
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/ChitietSp.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Dondathang</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Tongtien" class="control-label"></label>
+                <input asp-for="Tongtien" class="form-control" />
+                <span asp-validation-for="Tongtien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Makh" class="control-label"></label>
+                <select asp-for="Makh" class ="form-control" asp-items="ViewBag.Makh"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Maptvc" class="control-label"></label>
+                <select asp-for="Maptvc" class ="form-control" asp-items="ViewBag.Maptvc"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ngaydh" class="control-label"></label>
+                <input asp-for="Ngaydh" class="form-control" />
+                <span asp-validation-for="Ngaydh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Matrangthai" class="control-label"></label>
+                <select asp-for="Matrangthai" class ="form-control" asp-items="ViewBag.Matrangthai"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hoten" class="control-label"></label>
+                <input asp-for="Hoten" class="form-control" />
+                <span asp-validation-for="Hoten" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Diachi" class="control-label"></label>
+                <input asp-for="Diachi" class="form-control" />
+                <span asp-validation-for="Diachi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sdt" class="control-label"></label>
+                <input asp-for="Sdt" class="form-control" />
+                <span asp-validation-for="Sdt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

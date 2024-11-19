@@ -1,0 +1,331 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Cart
+<!-- Shopping Cart -->
+<style>
+    /* CSS styles for shopping cart table */
+    .table-shopping-cart {
+        width: 70%;
+        border-collapse: collapse;
+        margin-left: 200px;
+    }
+
+        .table-shopping-cart th,
+        .table-shopping-cart td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #ddd;
+            font-family: 'Arial', sans-serif;
+        }
+
+    .table_head th {
+        border-top: 2px solid #333;
+        border-bottom: 2px solid #333;
+    }
+
+    .column-1 img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    /* CSS styles for cart totals table */
+    .cart-totals-table {
+        width: 70%;
+        border-collapse: collapse;
+        margin-left: 200px;
+    }
+
+        .cart-totals-table th,
+        .cart-totals-table td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid #ddd;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .cart-totals-table .table_head th {
+            border-top: 2px solid #333;
+            border-bottom: 2px solid #333;
+        }
+
+    .buy-button {
+        background-color: black;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .cart-container {
+        position: relative;
+    }
+
+    .buy-button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px;
+    }
+
+    .ship-options {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ship-option {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+        .ship-option input[type="radio"] {
+            margin-right: 10px;
+        }
+
+    .ship-option-label {
+        font-size: 14px;
+        color: #333;
+    }
+
+    .checkout-form-container {
+        width: 70%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+        margin-left: 200px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+
+</style>
+<div class="table-shopping-cart">
+    <h2><strong>Giỏ hàng của bạn</strong></h2>
+</div>
+<br />
+<!-- Shopping Cart Table -->
+<table class="table-shopping-cart">
+    <tr class="table_head">
+        <th class="column-1" style="font-family: Arial;">Hình ảnh</th>
+        <th class="column-2" style="font-family: Arial;">Tên sản phẩm</th>
+        <th class="column-3" style="font-family: Arial;">Đơn giá</th>
+        <th class="column-4" style="font-family: Arial; text-align: center;">Số lượng</th>
+
+        <th class="column-5" style="font-family: Arial;">Thành tiền</th>
+        <th class="column-5" style="font-family: Arial;">Xóa sản phẩm</th>
+    </tr>
+    <!-- Iterate over cart items -->
+    @foreach (var line in Model?.Lines)
+    {
+        <tr class="table_row">
+            <td class="column-1">
+                <div class="how-itemcart1">
+                    <img src="@("~/image/"+line.Sanpham.Hinhanh)" asp-append-version="true" width="64px" height="64px" />
+                </div>
+            </td>
+            <td class="column-2">@line.Sanpham.Tensp</td>
+            <td class="column-3">@line.Sanpham.Dongia.000đ</td>
+            <td class="column-4">
+                <div class="wrap-num-product flex-w m-l-auto m-r-0">
+                    <div>
+                        <a href="/Cart/UpdateCart/?MASP=@line.Sanpham.Masp" class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+                            <i class="fs-16 zmdi zmdi-minus"></i>
+                        </a>
+                    </div>
+                    <input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="@line.Quantity">
+                    <div>
+                        <a href="/Cart/AddtoCart/?MASP=@line.Sanpham.Masp" class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+                            <i class="fs-16 zmdi zmdi-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </td>
+            <td class="column-5">@(line.Sanpham.Dongia * line.Quantity).000đ</td>
+            <td class="column-6"><a href="/Cart/RemoveFromCart/?MASP=@line.Sanpham.Masp" class="btn btn-sm btn-primary"><i class="fa fa-times"></i></td>
+        </tr>
+    }
+</table>
+
+
+<!-- Cart Totals Table -->
+<div class="cart-container">
+    <table class="cart-totals-table">
+        <!-- Subtotal row -->
+        <tr>
+            <td>
+                <span class="subtotal-text"><strong>Tổng tiền hàng:</strong></span>
+            </td>
+            <td>
+                <!-- Display the subtotal value using a server-side function -->
+                <span class="subtotal-value">@Model.ComputeTotalValue().000đ</span>
+            </td>
+        </tr>
+        <!-- Payment method selection row -->
+        <td colspan="2" class="ship-component" style="padding-top: 20px;">
+            <div style="margin-bottom: 10px;"><strong>Vui lòng chọn phương thức vận chuyển (nhấn vào hình tròn để chọn)</strong></div>
+            <div class="ship-options">
+                @await Component.InvokeAsync("Ship")
+            </div>
+        </td>
+
+        </tr>
+        <!-- Total row -->
+        <tr>
+            <td>
+                <span class="total-text"><strong>Tổng thanh toán:</strong></span>
+            </td>
+            <td>
+                <!-- Display the total value, adding 10 to the computed total -->
+                <span class="total-value" id="totalValue">@((Model.ComputeTotalValue() + 10))</span>.000đ
+            </td>
+        </tr>
+        <!-- Checkout Button -->
+       
+    </table>
+</div>
+<div style=" min-height:50px;" class="hero-header"></div>
+<h6 class="text-center"><strong>Thông tin nhận hàng</strong></h6>
+@await Component.InvokeAsync("ThaydoiDC")
+@await Component.InvokeAsync("Thongtinnhanhang")
+
+
+<div style=" min-height:100px;" class="hero-header"></div>
+<!-- JavaScript to handle form submission -->
+<script>
+    function submitForm() {
+        alert("Đã nhận thông tin đặt hàng!");
+    }
+</script>
+
+
+
+<!--===============================================================================================-->
+<script src="/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="/vendor/bootstrap/js/popper.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="vendor/select2/select2.min.js"></script>
+<script>
+	$(".js-select2").each(function () {
+		$(this).select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $(this).next('.dropDownSelect2')
+		});
+	})
+</script>
+<!--===============================================================================================-->
+<script src="/vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+<!--===============================================================================================-->
+<script src="/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script>
+	$('.js-pscroll').each(function () {
+		$(this).css('position', 'relative');
+		$(this).css('overflow', 'hidden');
+		var ps = new PerfectScrollbar(this, {
+			wheelSpeed: 1,
+			scrollingThreshold: 1000,
+			wheelPropagation: false,
+		});
+
+		$(window).on('resize', function () {
+			ps.update();
+		})
+	});
+</script>
+<!--===============================================================================================-->
+<script src="/js/main.js"></script>
+<script>
+    $(document).ready(function () {
+        // Lắng nghe sự kiện khi radio button được chọn
+        $('input[name="selectedItem"]').change(function () {
+            // Lấy giá trị Phivc đã chọn
+            var selectedPhivc = parseInt($('input[name="selectedItem"]:checked').closest('.ship-option').find('.phivc-value').data('phivc'));
+
+            // Hiển thị phí vận chuyển đã chọn
+            $('#selectedShippingFee').text(selectedPhivc.toLocaleString('vi-VN') );
+
+            // Lấy tổng giá trị của đơn hàng
+            var totalValue = parseInt("@Model.ComputeTotalValue()");
+
+            // Cập nhật tổng giá trị của đơn hàng sau khi thêm phí vận chuyển đã chọn
+            var updatedTotalValue = totalValue + selectedPhivc;
+
+            // Hiển thị tổng giá trị đã cập nhật
+            $('#totalValue').text(updatedTotalValue.toLocaleString('vi-VN') );
+        });
+
+        // Lấy giá trị Phivc từ component ship khi trang được tải
+        $(function () {
+            var selectedPhivc = parseInt($('.ship-option input[type="radio"]:checked').closest('.ship-option').find('.phivc-value').data('phivc'));
+
+            // Hiển thị phí vận chuyển đã chọn
+            $('#selectedShippingFee').text(selectedPhivc.toLocaleString('vi-VN'));
+
+            // Lấy tổng giá trị của đơn hàng
+            var totalValue = parseInt("@Model.ComputeTotalValue()");
+
+            // Cập nhật tổng giá trị của đơn hàng sau khi thêm phí vận chuyển đã chọn
+            var updatedTotalValue = totalValue + selectedPhivc;
+
+            // Hiển thị tổng giá trị đã cập nhật
+            $('#totalValue').text(updatedTotalValue.toLocaleString('vi-VN') );
+        });
+    });
+
+
+    $(document).ready(function () {
+        $('input[name="selectedItem"]').change(function () {
+            var selectedMaptvc = $('input[name="selectedItem"]:checked').val();
+            // Gửi giá trị selectedMaptvc đến server để lưu vào session
+            $.ajax({
+                url: '/Cart/SaveSelectedMaptvc',
+                type: 'POST',
+                data: { selectedMaptvc: selectedMaptvc },
+                success: function (response) {
+                    console.log("Maptvc đã được lưu vào session.");
+                },
+                error: function () {
+                    console.error("Lỗi khi lưu maptvc vào session.");
+                }
+            });
+        });
+    });
+    $(document).ready(function () {
+        $('input[name="selectedAddress"]').change(function () {
+            var selectedAddressId = $('input[name="selectedAddress"]:checked').val();
+            // Gửi giá trị selectedAddressId đến server để lưu vào session
+            $.ajax({
+                url: '/Cart/SaveSelectedAddress',
+                type: 'POST',
+                data: { selectedAddressId: selectedAddressId },
+                success: function (response) {
+                    console.log("Mã địa chỉ đã được lưu vào session.");
+                },
+                error: function () {
+                    console.error("Lỗi khi lưu mã địa chỉ vào session.");
+                }
+            });
+        });
+    });
+ 
+        function toggleAddressSelection() {
+            var addressOptions = document.getElementById("addressOptions");
+            var thongtinnhanhang = document.getElementById("thongtinnhanhang");
+            if (addressOptions.style.display === "none") {
+                addressOptions.style.display = "block";
+                thongtinnhanhang.style.display = "none";
+            } else {
+                addressOptions.style.display = "none";
+                thongtinnhanhang.style.display = "block";
+            }
+        }
+
+
+</script>

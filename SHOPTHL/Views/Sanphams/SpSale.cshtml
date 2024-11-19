@@ -1,0 +1,53 @@
+﻿@model IEnumerable<SHOPTHL.Data.Sanpham>
+@{
+    ViewData["Title"] = "SpSale";
+    Layout = "~/Views/Shared/Shop.cshtml";
+}
+
+
+
+@await Component.InvokeAsync("Navbar")
+<h1>Sản phẩm đang giảm giá</h1>
+<br />
+<div class="row isotope-grid">
+    @foreach (var item in Model)
+    {
+
+        <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+            <div class="block2">
+                <div class="block2-pic hov-img0">
+                    <img src="~/Image/@item.Hinhanh" alt="Product Image">
+                </div>
+                <div class="block2-txt">
+                    <div class="product-info">
+                        <a href="/Sanphams/CtSp/@item.Masp" class="product-name" style="font-weight: bold; color: #333;">@item.Tensp</a>
+                        <div class="price-info">
+                            <span class="current-price">Giá hiện tại: @item.Dongia.000đ</span>
+                            @if (item.MagiamgiaNavigation != null && item.MagiamgiaNavigation.Phantramgiam != 0)
+                            {
+                                <span class="discount-rate" style="color: red; font-weight: bold;">-@item.MagiamgiaNavigation.Phantramgiam%</span>
+                            }
+                        </div>
+                        @if (item.MagiamgiaNavigation != null && item.MagiamgiaNavigation.Phantramgiam != 0)
+                        {
+                            var giaGoc = (item.Dongia * 100) / (100 - item.MagiamgiaNavigation.Phantramgiam);
+                            <div class="original-price">Giá gốc: <del>@string.Format("{0:N0}", giaGoc).000đ</del></div>
+                        }
+                        <div class="rating">
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                <span class="fa fa-star checked"></span>
+                            }
+                        </div>
+                    </div>
+                    <div class="wishlist-button">
+                        <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                            <img class="icon-heart1 dis-block trans-04" src="~/images/icons/icon-heart-01.png" alt="Add to Wishlist">
+                            <img class="icon-heart2 dis-block trans-04 ab-t-l" src="~/images/icons/icon-heart-02.png" alt="Added to Wishlist">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div style=" min-height:200px;" class="hero-header"></div>

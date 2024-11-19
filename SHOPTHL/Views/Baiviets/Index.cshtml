@@ -1,0 +1,61 @@
+﻿@model IEnumerable<SHOPTHL.Data.Baiviet>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Admin";
+}
+
+<h1>DANH SÁCH CÁC BÀI VIẾT</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm bài viết mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên bài viết
+            </th>
+            <th>
+                Nội dung
+            </th>
+            <th>
+                Hình ảnh
+            </th>
+            <th>
+                Ngày đăng
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenbaiviet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Noidung)
+            </td>
+            <td>
+                    <img src="/images/Blog/@item.Hinhanh" alt="IMG-BLOG" asp-append-version="true" width="64px" height="64px">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaydang)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Mabaiviet" class="btn btn-warning">
+                        <i class="fas fa-edit"></i> <!-- Biểu tượng chỉnh sửa -->
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.Mabaiviet" class="btn btn-info">
+                        <i class="fas fa-info-circle"></i> <!-- Biểu tượng xem chi tiết -->
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.Mabaiviet" class="btn btn-danger">
+                        <i class="fas fa-trash-alt"></i> <!-- Biểu tượng xóa -->
+                    </a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

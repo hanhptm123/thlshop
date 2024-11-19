@@ -1,0 +1,144 @@
+﻿@using X.PagedList;
+@using X.PagedList.Mvc.Bootstrap4;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<SHOPTHL.Data.Sanpham>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "Shop";
+}
+<style>
+    .pagination-container {
+        text-align: center;
+    }
+    /* Mặc định không có màu */
+    .add-to-like .fas.fa-heart {
+        color: #ccc; /* Màu xám hoặc bất kỳ màu nào bạn muốn */
+    }
+
+    /* Khi hover */
+    .add-to-like:hover .fas.fa-heart {
+        color: red; /* Màu đỏ hoặc bất kỳ màu nào bạn muốn khi hover */
+    }
+
+    /* Khi được chọn */
+    .add-to-like.selected .fas.fa-heart {
+        color: red; /* Màu đỏ hoặc bất kỳ màu nào bạn muốn khi được chọn */
+    }
+
+</style>
+
+@await Component.InvokeAsync("Navbar")
+<div class="row isotope-grid">
+    @foreach (var item in Model)
+    {
+        <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+            <div class="block2">
+                <div class="block2-pic hov-img0">
+                    <img src="~/Image/@item.Hinhanh" alt="Product Image">
+                </div>
+                <div class="block2-txt">
+                    <div class="product-info">
+                        <a href="/Sanphams/CtSp/@item.Masp" class="product-name" style="font-weight: bold; color: #333;">@item.Tensp</a>
+                        <div class="price-info">
+                            <span class="current-price">Giá hiện tại: @item.Dongia.000đ</span>
+                            @if (item.MagiamgiaNavigation != null && item.MagiamgiaNavigation.Phantramgiam != 0)
+                            {
+                                <span class="discount-rate" style="color: red; font-weight: bold;">-@item.MagiamgiaNavigation.Phantramgiam%</span>
+                            }
+                        </div>
+                        @if (item.MagiamgiaNavigation != null && item.MagiamgiaNavigation.Phantramgiam != 0)
+                        {
+                            var giaGoc = (item.Dongia * 100) / (100 - item.MagiamgiaNavigation.Phantramgiam);
+                            <div class="original-price">Giá gốc: <del>@string.Format("{0:N0}", giaGoc).000đ</del></div>
+                        }
+                        <div class="rating">
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                <span class="fa fa-star checked"></span>
+                            }
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);" class="add-to-like" data-masp="@item.Masp">
+                        <i class="fas fa-heart"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<div style=" min-height:100px;" class="hero-header"></div>
+<div style="display: flex; justify-content: center;">
+    @Html.PagedListPager(Model, page => Url.Action("SpShop", "Sanphams", new { page = page, searching = Context.Request.Query["searching"] }), new PagedListRenderOptions()
+{
+    DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+    DisplayLinkToLastPage = PagedListDisplayMode.Always,
+    DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+    DisplayLinkToNextPage = PagedListDisplayMode.Always,
+    DisplayLinkToIndividualPages = true,
+    MaximumPageNumbersToDisplay = 10,
+    DisplayEllipsesWhenNotShowingAllPageNumbers = true,
+    LinkToFirstPageFormat = "Đầu",
+    LinkToPreviousPageFormat = "<",
+    LinkToNextPageFormat = ">",
+    LinkToLastPageFormat = "Cuối",
+    PageClasses = new string[] { "page-item", "page-link" },
+    ContainerDivClasses = new string[] { "pagination-container" },
+    UlElementClasses = new string[] { "pagination" },
+    LiElementClasses = new string[] { "page-item" }
+})
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.add-to-like').click(function (event) {
+            event.preventDefault();  // Ngăn chặn hành vi mặc định của thẻ <a>
+            var masp = $(this).data('masp');
+
+            // Hiển thị SweetAlert trước khi gửi yêu cầu AJAX
+            Swal.fire({
+                title: 'Bạn có chắc chắn muốn thêm sản phẩm vào danh sách yêu thích?',
+                icon: 'question',
+                showCancelButton: true,
+                confirmButtonText: 'OK',
+                cancelButtonText: 'Hủy'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Chỉ gửi yêu cầu AJAX khi người dùng xác nhận
+                    $.ajax({
+                        url: '/Like/AddToLike',
+                        type: 'GET',
+                        data: { MASP: masp },
+                        success: function (response) {
+                            Swal.fire({
+                                title: 'Đã thêm vào danh sách yêu thích!',
+                                icon: 'success',
+                                confirmButtonText: 'OK'
+                            });
+                        },
+                        error: function (error) {
+                            Swal.fire({
+                                title: 'Có lỗi xảy ra, vui lòng thử lại sau.',
+                                icon: 'error',
+                                confirmButtonText: 'OK'
+                            });
+                        }
+                    });
+                }
+            });
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.add-to-like').forEach(function (element) {
+            element.addEventListener('click', function () {
+                this.classList.toggle('selected');
+            });
+        });
+    });
+
+
+</script>

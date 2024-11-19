@@ -1,0 +1,66 @@
+﻿@model IEnumerable<SHOPTHL.Data.Danhgium>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/ChitietSp.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ngaydanhgia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Loidanhgia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Diemdanhgia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hinhanh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MakhNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaspNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaydanhgia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Loidanhgia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diemdanhgia)
+            </td>
+                <td>
+                    <img src="@("~/image/"+item.Hinhanh)" asp-append-version="true" width="64px" height="64px" />
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MakhNavigation.Makh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaspNavigation.Masp)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Madanhgia">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Madanhgia">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Madanhgia">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

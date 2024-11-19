@@ -1,0 +1,160 @@
+﻿@model IEnumerable<SHOPTHL.Data.Dondathang>
+
+@{
+    ViewData["Title"] = "Danh sách đơn đặt hàng của Khách hàng";
+    Layout = "~/Views/Shared/ChitietSp.cshtml";
+}
+
+<h1 class="text-center mb-4">Danh sách các đơn hàng của bạn</h1>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info" role="alert">
+        Không có đơn đặt hàng nào.
+    </div>
+}
+else
+{
+    <div id="tablesContainer">
+        @foreach (var item in Model.Select(x => x.MatrangthaiNavigation.Tentrangthai).Distinct())
+        {
+            <button type="button" class="btn btn-outline-primary btn-trangthai mx-1 my-2" data-trangthai="@item">@item</button>
+        }
+
+        @foreach (var trangThai in Model.Select(x => x.MatrangthaiNavigation.Tentrangthai).Distinct())
+        {
+            <div class="table-responsive" style="display: none;" data-trangthai="@trangThai">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Ngày đặt hàng</th>
+                            <th scope="col">Họ tên người nhận</th>
+                            <th scope="col">Địa chỉ giao hàng</th>
+                            <th scope="col">Số điện thoại</th>
+                            <th scope="col">Phương thức vận chuyển</th>
+                            <th scope="col">Tổng tiền (bao gồm phí vận chuyển)</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var donDatHang in Model.Where(x => x.MatrangthaiNavigation.Tentrangthai == trangThai))
+                        {
+                            // Tính tổng tiền bao gồm phí vận chuyển
+                            var totalWithShippingFee = donDatHang.Tongtien + (donDatHang.MaptvcNavigation != null ? donDatHang.MaptvcNavigation.Phivc : 0);
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => donDatHang.Ngaydh)</td>
+                                <td>@Html.DisplayFor(modelItem => donDatHang.Hoten)</td>
+                                <td>@Html.DisplayFor(modelItem => donDatHang.Diachi)</td>
+                                <td>@Html.DisplayFor(modelItem => donDatHang.Sdt)</td>
+                                <td>@Html.DisplayFor(modelItem => donDatHang.MaptvcNavigation.Tenptvc)</td>
+                                <td>@totalWithShippingFee.000đ</td>
+                                <td>
+                                    @if (donDatHang.MatrangthaiNavigation.Tentrangthai == "Đã giao" )
+                                    {
+                                        <a href="@Url.Action("Ctddhdagiao", "Ctddhs", new { id = donDatHang.Maddh })">Chi tiết</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="@Url.Action("Ctddhtheomakh", "Ctddhs", new { id = donDatHang.Maddh })">Chi tiết</a>
+                                    }
+                                </td>
+
+                                <td>
+                                    @if (donDatHang.MatrangthaiNavigation.Tentrangthai == "Đã giao" || donDatHang.MatrangthaiNavigation.Tentrangthai == "Đã hủy")
+                                    {
+                                        <span class="text-muted">@donDatHang.MatrangthaiNavigation.Tentrangthai</span>
+                                    }
+                                    else
+                                    {
+                                        <button type="button" class="btn btn-danger" onclick="showCancellationForm();">
+                                            Hủy đơn hàng
+                                        </button>
+
+                                        <form id="huyDonHangForm" asp-action="HuyDDH" asp-route-id="@donDatHang.Maddh" method="post" style="display: none;">
+                                            <div class="form-group">
+                                                <label for="lydo">Lý do hủy đơn hàng:</label>
+                                                <select class="form-control" id="lydo" name="lydo">
+                                                    <option value="Tôi muốn thay đổi sản phẩm">Tôi muốn thay đổi sản phẩm</option>
+                                                    <option value="Tôi không có nhu cầu mua nữa">Tôi không có nhu cầu mua nữa</option>
+                                                    <option value="Tôi muốn thay đổi địa chỉ nhận hàng">Tôi muốn thay đổi địa chỉ nhận hàng</option>
+                                                    <option value="Khác">Khác</option>
+                                                </select>
+                                            </div>
+                                            <div id="lydoKhac" style="display: none;">
+                                                <div class="form-group">
+                                                    <label for="lydoKhacInput">Nhập lý do khác:</label>
+                                                    <input type="text" class="form-control" id="lydoKhacInput" name="lydoKhacInput">
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn btn-secondary" onclick="cancelCancellation();">
+                                                Không hủy
+                                            </button>
+                                            <button type="submit" class="btn btn-danger" onclick="return confirm('Bạn có chắc chắn muốn hủy đơn hàng này không?');">
+                                                Xác nhận hủy
+                                            </button>
+                                        </form>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+}
+
+<!-- Script để ẩn/hiện các bảng và đổi màu nút -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll('.btn-trangthai');
+
+        buttons.forEach((button, index) => {
+            const trangThai = button.getAttribute('data-trangthai');
+
+            if (index === 0) {
+                document.querySelectorAll('.table-responsive[data-trangthai="' + trangThai + '"]').forEach(table => {
+                    table.style.display = 'block';
+                });
+                button.classList.add('btn-danger');
+            }
+
+            button.addEventListener('click', function () {
+                document.querySelectorAll('.table-responsive').forEach(table => {
+                    table.style.display = 'none';
+                });
+                document.querySelectorAll('.table-responsive[data-trangthai="' + trangThai + '"]').forEach(table => {
+                    table.style.display = 'block';
+                });
+
+                buttons.forEach(btn => btn.classList.remove('btn-danger'));
+                this.classList.add('btn-danger');
+            });
+        });
+    });
+
+    function showCancellationForm() {
+        document.getElementById('huyDonHangForm').style.display = 'block';
+    }
+
+    function cancelCancellation() {
+        document.getElementById('huyDonHangForm').style.display = 'none';
+    }
+
+    document.getElementById('lydo').addEventListener('change', function () {
+        var selectedOption = this.value;
+        if (selectedOption === 'Khác') {
+            document.getElementById('lydoKhac').style.display = 'block';
+        } else {
+            document.getElementById('lydoKhac').style.display = 'none';
+        }
+    });
+</script>
+
+<style>
+    .btn-trangthai.btn-danger {
+        background-color: red;
+        color: white;
+    }
+</style>

@@ -1,0 +1,126 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+	body, h1, h2, h3, h4, h5, h6, p, a, ul, li {
+		font-family: Arial, sans-serif;
+	}
+</style>
+
+@model IEnumerable<SHOPTHL.Data.Loai>
+<footer class="bg3 p-t-75 p-b-32">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-lg-3 p-b-50">
+				<h4 class="stext-301 cl0 p-b-30">
+					THỂ LOẠI
+				</h4>
+
+				<ul>
+					@foreach (var item in Model){
+					<li class="p-b-10">
+							<a href="/Sanphams/Sanphamtheoloai?id=@item.Maloai" class="stext-107 cl7 hov-cl1 trans-04">
+							@item.Tenloai
+						</a>
+					</li>
+					}
+					
+				</ul>
+			</div>
+
+			@* <div class="col-sm-6 col-lg-3 p-b-50">
+				<h4 class="stext-301 cl0 p-b-30">
+					Help
+				</h4>
+
+				<ul>
+					<li class="p-b-10">
+						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+							Track Order
+						</a>
+					</li>
+
+					<li class="p-b-10">
+						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+							Returns
+						</a>
+					</li>
+
+					<li class="p-b-10">
+						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+							Shipping
+						</a>
+					</li>
+
+					<li class="p-b-10">
+						<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
+							FAQs
+						</a>
+					</li>
+				</ul>
+			</div>
+ *@
+			<div class="col-sm-6 col-lg-3 p-b-50">
+				<h4 class="stext-301 cl0 p-b-30">
+					THÔNG TIN LIÊN LẠC
+				</h4>
+
+				<p class="stext-107 cl7 size-201">
+					Nếu có thắc mắc, vui lòng liên hệ:
+					<br>
+					Địa chỉ: 8C Tống Hữu Định, Hồ Chí Minh
+					<br>
+					Điện thoại: 0982 318 867 (Jennifer Phương).
+				</p>
+
+
+				<div class="p-t-27">
+					<a href="https://www.facebook.com/profile.php?id=61557632203107" class="fs-18 cl7 hov-cl1 trans-04 m-r-16" target="_blank">
+						<i class="fa fa-facebook"></i> 
+					</a>
+	
+
+					@* <a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+						<i class="fa fa-instagram"></i>
+					</a>
+
+					<a href="#" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+						<i class="fa fa-pinterest-p"></i>
+					</a> *@
+				</div>
+			</div>
+
+			@* <div class="col-sm-6 col-lg-3 p-b-50">
+				<h4 class="stext-301 cl0 p-b-30">
+					Newsletter
+				</h4>
+
+				<form>
+					<div class="wrap-input1 w-full p-b-4">
+						<input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email" placeholder="email@example.com">
+						<div class="focus-input1 trans-04"></div>
+					</div>
+
+					<div class="p-t-18">
+						<button class="flex-c-m stext-101 cl0 size-103 bg1 bor1 hov-btn2 p-lr-15 trans-04">
+							Subscribe
+						</button>
+					</div>
+				</form>
+			</div> *@
+		</div>
+
+		<div class="p-t-40">
+		
+
+			<p class="stext-107 cl6 txt-center">
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+			</p>
+		</div>
+	</div>
+</footer>

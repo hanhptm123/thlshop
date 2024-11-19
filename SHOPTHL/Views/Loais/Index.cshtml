@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SHOPTHL.Data.Loai>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Admin";
+}
+
+<h1>Danh sách các loại</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm loại mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên loại
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenloai)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Maloai" class="btn btn-warning">
+                        <i class="fas fa-edit"></i> <!-- Biểu tượng chỉnh sửa -->
+                    </a> |
+                    <a asp-action="Delete" asp-route-id="@item.Maloai" class="btn btn-danger">
+                        <i class="fas fa-trash-alt"></i> <!-- Biểu tượng xóa -->
+                    </a>
+
+            
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
